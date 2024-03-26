@@ -8,6 +8,7 @@ import List from './components/List'
 import CounterApp from './components/CounterApp'
 import Form from './components/Form'
 import RegistrationForm from './components/RegistrationForm'
+import ClickCounter from './components/ClickCounter'
 
 function App() {
 
@@ -21,7 +22,8 @@ function App() {
       {/* <List/> */}
       {/* <CounterApp/> */}
       {/* <Form/> */}
-      <RegistrationForm/>
+      {/* <RegistrationForm/> */}
+      <ClickCounter />
     </div>
   )
 }
