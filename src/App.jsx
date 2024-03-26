@@ -6,6 +6,8 @@ import './App.css'
 import Authentification from './components/ConditionalRendering'
 import List from './components/List'
 import CounterApp from './components/CounterApp'
+import Form from './components/Form'
+import RegistrationForm from './components/RegistrationForm'
 
 function App() {
 
@@ -17,7 +19,9 @@ function App() {
       <FunctionalComponent/> */}
       {/* <Authentification/> */}
       {/* <List/> */}
-      <CounterApp/>
+      {/* <CounterApp/> */}
+      {/* <Form/> */}
+      <RegistrationForm/>
     </div>
   )
 }
