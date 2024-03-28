@@ -9,7 +9,8 @@ import CounterApp from './components/CounterApp'
 import Form from './components/Form'
 import RegistrationForm from './components/RegistrationForm'
 import ClickCounter from './components/ClickCounter'
-
+import CourseContext from './components/context/courseContext'
+import Timer from './components/useEffect/Timer'
 function App() {
 
   return (
@@ -23,7 +24,8 @@ function App() {
       {/* <CounterApp/> */}
       {/* <Form/> */}
       {/* <RegistrationForm/> */}
-      <ClickCounter />
+      {/* <ClickCounter /> */}
+      <Timer/>
     </div>
   )
 }
