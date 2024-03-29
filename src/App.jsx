@@ -11,6 +11,7 @@ import RegistrationForm from './components/RegistrationForm'
 import ClickCounter from './components/ClickCounter'
 import CourseContext from './components/context/courseContext'
 import Timer from './components/useEffect/Timer'
+import Posts from './components/APi/Posts'
 function App() {
 
   return (
@@ -25,7 +26,8 @@ function App() {
       {/* <Form/> */}
       {/* <RegistrationForm/> */}
       {/* <ClickCounter /> */}
-      <Timer/>
+      {/* <Timer/> */}
+      <Posts/>
     </div>
   )
 }
