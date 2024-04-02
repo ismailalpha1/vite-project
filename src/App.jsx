@@ -14,6 +14,8 @@ import Timer from './components/useEffect/Timer'
 import Posts from './components/APi/Posts'
 import UseRef from './components/useRef'
 import UseReducer from './components/useReducer'
+import ComplexCounter from './components/complexCounter'
+import PostWithoutReducer from './components/PostWithoutReducer'
 function App() {
 
   return (
@@ -31,7 +33,9 @@ function App() {
       {/* <Timer/> */}
       {/* <Posts/> */}
       {/* <UseRef/> */}
-      <UseReducer/>
+      {/* <UseReducer/> */}
+      {/* <ComplexCounter/> */}
+      <PostWithoutReducer/>
     </div>
   )
 }
