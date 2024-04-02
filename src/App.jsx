@@ -12,6 +12,8 @@ import ClickCounter from './components/ClickCounter'
 import CourseContext from './components/context/courseContext'
 import Timer from './components/useEffect/Timer'
 import Posts from './components/APi/Posts'
+import UseRef from './components/useRef'
+import UseReducer from './components/useReducer'
 function App() {
 
   return (
@@ -27,7 +29,9 @@ function App() {
       {/* <RegistrationForm/> */}
       {/* <ClickCounter /> */}
       {/* <Timer/> */}
-      <Posts/>
+      {/* <Posts/> */}
+      {/* <UseRef/> */}
+      <UseReducer/>
     </div>
   )
 }
